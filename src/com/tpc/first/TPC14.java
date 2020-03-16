@@ -16,7 +16,6 @@ public class TPC14 {
 		bookPrint(b1);
 	}
 	
-	// branch test¡ﬂ
 	public static void bookPrint(BookDTO b) {
 		System.out.println("b = " + b);
 		System.out.println("b.title = " + b.title);
