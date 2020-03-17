@@ -1,5 +1,7 @@
 package com.tpc.first;
 
+
+// JVM 메모리에서 자바가 구동하는 원리
 public class TPC16 {
 	public static void main(String[] args) {
 		double m = 9.30;
