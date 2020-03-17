@@ -10,6 +10,7 @@ public class TPC16 {
 		System.out.println("sum = " + sum);
 	}
 
+	// git test
 	private double add(double a, double b) {
 		double add = a + b;
 		return add;
