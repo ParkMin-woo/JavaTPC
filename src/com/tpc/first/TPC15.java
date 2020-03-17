@@ -4,6 +4,7 @@ import kr.bit.structure.MemberDTO;
 
 public class TPC15 {
 	public static void main(String[] args) {
+		// getter , setter method 테스트중
 		MemberDTO member = new MemberDTO();
 		
 		member.setName("박민우");
