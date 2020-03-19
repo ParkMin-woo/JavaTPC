@@ -2,10 +2,10 @@ package kr.bit.structure;
 
 public class Inflearn02 {
 	public void python() {
-		System.out.println("ÆÄÀÌ½ã °­ÀÇ Â¯!!!");
+		System.out.println("íŒŒì´ì¬ ê°•ì˜ ì§±!!!");
 	}
 	
 	public static void oracle() {
-		System.out.println("¿À¶óÅ¬Àº Àç¹ÌÀÖ´Ù!");
+		System.out.println("ì˜¤ë¼í´ì€ ì¬ë¯¸ìˆë‹¤!");
 	}
 }

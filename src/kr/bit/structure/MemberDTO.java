@@ -47,7 +47,13 @@ public class MemberDTO {
 	 * @param age the age to set
 	 */
 	public void setAge(int age) {
-		this.age = age;
+		if(age < 1 || age > 130) {
+			this.age = 0;
+			System.out.println("나이가 1살 미만 또는 130살 이상입니다.\n나이를 다시 입력해 주세요.");
+		}
+		else {
+			this.age = age;
+		}
 	}
 
 	/**

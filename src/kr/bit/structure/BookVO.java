@@ -7,17 +7,17 @@ public class BookVO {
 	public int page;
 	
 	public BookVO() {
-		// ÃÊ±âÈ­ ÀÛ¾÷
-		// ¡Ø ÇöÀç±îÁö ½Ç¹«¿¡¼­ ÀÌ·¸°Ô ¾²´Â°ÍÀ» º» ÀûÀÌ ¾ø´Ù...;;;
+		// ì´ˆê¸°í™” ì‘ì—…
+		// â€» í˜„ì¬ê¹Œì§€ ì‹¤ë¬´ì—ì„œ ì´ë ‡ê²Œ ì“°ëŠ”ê²ƒì„ ë³¸ ì ì´ ì—†ë‹¤...;;;
 		/*
-		title = "Å¬¶ó¿ì½º ½´¹äÀÇ Á¦4Â÷ »ê¾÷Çõ¸í";
+		title = "í´ë¼ìš°ìŠ¤ ìŠˆë°¥ì˜ ì œ4ì°¨ ì‚°ì—…í˜ëª…";
 		price = 15000;
-		company = "»õ·Î¿îÇöÀç";
+		company = "ìƒˆë¡œìš´í˜„ì¬";
 		page = 287;
 		*/
 	}
 	
-	// »ı¼ºÀÚÀÇ Áßº¹Á¤ÀÇ(Overloading)
+	// ìƒì„±ìì˜ ì¤‘ë³µì •ì˜(Overloading)
 	public BookVO(String title, int price, String company, int page) {
 		this.title = title;
 		this.price = price;

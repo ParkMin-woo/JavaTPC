@@ -9,7 +9,7 @@ public class TPC05 {
 		
 		arrSum1(arr1);
 		
-		// 9°³ÀÇ Á¤¼öÇü º¯¼ö¸¦ ¸¸µé¾î¶ó. -> 2Â÷¿ø ±¸Á¶·Î »ı¼º
+		// 9ê°œì˜ ì •ìˆ˜í˜• ë³€ìˆ˜ë¥¼ ë§Œë“¤ì–´ë¼. -> 2ì°¨ì› êµ¬ì¡°ë¡œ ìƒì„±
 		int[][] arr2 = new int[3][3];
 		for(int i = 0 ; i < arr2.length ; i++) {
 			for(int j = 0 ; j < arr2[i].length ; j++) {

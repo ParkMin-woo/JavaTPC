@@ -5,11 +5,11 @@ import kr.bit.structure.BookDTO;
 public class TPC11 {
 	public static void main(String[] args) {
 		
-		// Ã¥ 1±ÇÀ» ÀúÀåÇÏ±â À§ÇØ¼­ [°´Ã¼¸¦ »ı¼º]ÇÏ½Ã¿À.
+		// ì±… 1ê¶Œì„ ì €ì¥í•˜ê¸° ìœ„í•´ì„œ [ê°ì²´ë¥¼ ìƒì„±]í•˜ì‹œì˜¤.
 		BookDTO book = new BookDTO();
-		book.title = "SQL Ã¹°ÉÀ½";
+		book.title = "SQL ì²«ê±¸ìŒ";
 		book.price = 22000;
-		book.company = "ÇÑºû¹Ìµğ¾î";
+		book.company = "í•œë¹›ë¯¸ë””ì–´";
 		book.page = 367;
 		System.out.print("title\tprice\tcompany\tpage\n");
 		System.out.print(book.title + "\t" + book.price + "\t" + book.company + "\t" + book.page + "\n");

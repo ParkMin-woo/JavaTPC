@@ -1,6 +1,6 @@
 package kr.bit.structure;
 
-// Ã¥(°´Ã¼) -> Á¦¸ñ, °¡°İ, ÃâÆÇ»ç, ÀúÀÚ, ÆäÀÌÁö¼ö, ISBNÄÚµå.... ==> Ã¥ÀÇ »óÅÂÁ¤º¸
+// ì±…(ê°ì²´) -> ì œëª©, ê°€ê²©, ì¶œíŒì‚¬, ì €ì, í˜ì´ì§€ìˆ˜, ISBNì½”ë“œ.... ==> ì±…ì˜ ìƒíƒœì •ë³´
 public class Book {
 	public String title;
 	public int price;

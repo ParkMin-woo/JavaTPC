@@ -2,7 +2,7 @@ package com.tpc.first;
 
 public class TPC06 {
 	public static void main(String[] args) {
-		// 5. ¸Ş¼­µå -> µ¿ÀÛ(method), ±â´É(function)
+		// 5. ë©”ì„œë“œ -> ë™ì‘(method), ê¸°ëŠ¥(function)
 		int v = intSum(20, 30);
 		System.out.println("v = " + v);
 		
@@ -12,7 +12,7 @@ public class TPC06 {
 		for(int temp : arr) {
 			System.out.println("temp => " + temp);
 		}
-		// arrÀÌ ÂüÁ¶ÇÏ´Â °´Ã¼ ¸Ş¸ğ¸® À§Ä¡ ÁÖ¼Ò°ªÀÌ ¸®ÅÏµÊ.
+		// arrì´ ì°¸ì¡°í•˜ëŠ” ê°ì²´ ë©”ëª¨ë¦¬ ìœ„ì¹˜ ì£¼ì†Œê°’ì´ ë¦¬í„´ë¨.
 		// System.out.println("arr => " + arr);
 		
 		int intArrSum = intArraySum(arr);
@@ -24,7 +24,7 @@ public class TPC06 {
 
 	}
 
-	// Á¤¼ö 2°³¸¦ ¸Å°³º¯¼ö·Î ¹Ş¾Æ¼­ ÃÑ ÇÕÀ» ±¸ÇÏ¿© returnÇÏ´Â ¸Ş¼­µå¸¦ Á¤ÀÇÇÏ½Ã¿À.
+	// ì •ìˆ˜ 2ê°œë¥¼ ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ì•„ì„œ ì´ í•©ì„ êµ¬í•˜ì—¬ returní•˜ëŠ” ë©”ì„œë“œë¥¼ ì •ì˜í•˜ì‹œì˜¤.
 	public static int intSum(int num1, int num2) {
 		int sum = num1 + num2;
 		return sum;
@@ -42,7 +42,7 @@ public class TPC06 {
 		return arr;
 	}
 	
-	// Á¤¼ö ¿©·¯°³¸¦ ¸Å°³º¯¼ö·Î ¹Ş¾Æ¼­ ÃÑ ÇÕÀ» ±¸ÇÏ¿©  returnÇÏ´Â ¸Ş¼­µå¸¦ Á¤ÀÇ
+	// ì •ìˆ˜ ì—¬ëŸ¬ê°œë¥¼ ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ì•„ì„œ ì´ í•©ì„ êµ¬í•˜ì—¬  returní•˜ëŠ” ë©”ì„œë“œë¥¼ ì •ì˜
 	public static int intArraySum(int[] x) {
 		int sum = 0;
 		// Advanced for Loop

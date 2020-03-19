@@ -5,43 +5,43 @@ import kr.bit.structure.MemberVO;
 
 public class TPC03 {
 	public static void main(String[] args) {
-		// °ü°è¸¦ ÀÌÇØÇÏ¶ó!
+		// ê´€ê³„ë¥¼ ì´í•´í•˜ë¼!
 		// PDT VS UDDT
-		// Á¤¼ö 1°³¸¦ ÀúÀåÇÏ±â À§ÇÑ º¯¼ö¸¦ ¼±¾ð
+		// ì •ìˆ˜ 1ê°œë¥¼ ì €ìž¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ë¥¼ ì„ ì–¸
 		int a;
 		a = 10;
 		System.out.println("a => " + a + "\n");
 		
-		// Ã¥ 1±ÇÀ» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö¸¦ ¼±¾ðÇÏ½Ã¿À.
+		// ì±… 1ê¶Œì„ ì €ìž¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ì‹œì˜¤.
 		Book book;
-		// new¿¡ ÀÇÇÏ¿© °´Ã¼È­
+		// newì— ì˜í•˜ì—¬ ê°ì²´í™”
 		book = new Book();
 		
-		book.company = "ÇÑºû¹Ìµð¾î";
-		book.title = "ÀÚ¹ÙÀÇ Á¤¼®";
+		book.company = "í•œë¹›ë¯¸ë””ì–´";
+		book.title = "ìžë°”ì˜ ì •ì„";
 		book.price = 15000;
 		book.page = 700;
 		
-		System.out.println("ÃâÆÇ»ç => " + book.company);
-		System.out.println("Á¦¸ñ => " + book.title);
-		System.out.println("°¡°Ý => " + book.price);
-		System.out.println("ÆäÀÌÁö => " + book.page + "\n");
+		System.out.println("ì¶œíŒì‚¬ => " + book.company);
+		System.out.println("ì œëª© => " + book.title);
+		System.out.println("ê°€ê²© => " + book.price);
+		System.out.println("íŽ˜ì´ì§€ => " + book.page + "\n");
 		
-//		È¸¿ø °ü¸®
+//		íšŒì› ê´€ë¦¬
 		MemberVO member;
 		member = new MemberVO();
 		
-		member.name = "±è¼ö¿µ";
+		member.name = "ê¹€ìˆ˜ì˜";
 		member.age = 26;
-		member.adress = "°æ±âµµ ¼º³²";
-		member.job = "³ªÀÌÅ° Á÷¿ø";
+		member.adress = "ê²½ê¸°ë„ ì„±ë‚¨";
+		member.job = "ë‚˜ì´í‚¤ ì§ì›";
 		member.height = 170.9f;
 		member.weight = 50.12f;
-		System.out.println("ÀÌ¸§ => " + member.name);
-		System.out.println("³ªÀÌ => " + member.age);
-		System.out.println("ÁÖ¼Ò => " + member.adress);
-		System.out.println("Á÷¾÷ => " + member.job);
-		System.out.println("Å° => " + member.height);
-		System.out.println("¸ö¹«°Ô => " + member.weight);
+		System.out.println("ì´ë¦„ => " + member.name);
+		System.out.println("ë‚˜ì´ => " + member.age);
+		System.out.println("ì£¼ì†Œ => " + member.adress);
+		System.out.println("ì§ì—… => " + member.job);
+		System.out.println("í‚¤ => " + member.height);
+		System.out.println("ëª¸ë¬´ê²Œ => " + member.weight);
 	}
 }

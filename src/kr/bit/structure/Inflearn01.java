@@ -4,10 +4,10 @@ public class Inflearn01 {
 	private Inflearn01() {}
 	
 	public void tpc() {
-		System.out.println("TPC °­ÀÇ Â¯ÀÌ¿¡¿ä!");
+		System.out.println("TPC ê°•ì˜ ì§±ì´ì—ìš”!");
 	}
 	
 	public static void java() {
-		System.out.println("ÀÚ¹Ù °­ÀÇ Â¯ÀÌ¿¡¿ä!");
+		System.out.println("ìë°” ê°•ì˜ ì§±ì´ì—ìš”!");
 	}
 }

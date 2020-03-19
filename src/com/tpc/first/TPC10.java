@@ -9,8 +9,8 @@ public class TPC10 {
 		// System.out.println(a);
 		a = 10;
 		
-		// Ã¥ÀÌ¶ó´Â ÀÚ·áÇüÀ» ¸¸µéÀÚ. -> class
-		// °´Ã¼ »ı¼º
+		// ì±…ì´ë¼ëŠ” ìë£Œí˜•ì„ ë§Œë“¤ì. -> class
+		// ê°ì²´ ìƒì„±
 		BookDTO b = new BookDTO();
 		System.out.println("b => " + b);
 		/*
@@ -20,14 +20,14 @@ public class TPC10 {
 		System.out.println("page => " + b.page);
 		*/
 		
-		b.title = "ÀÌ°ÍÀÌ ÀÚ¹Ù´Ù";
+		b.title = "ì´ê²ƒì´ ìë°”ë‹¤";
 		b.price = 30000;
-		b.company = "ÇÑºû¹Ìµğ¾î";
+		b.company = "í•œë¹›ë¯¸ë””ì–´";
 		b.page = 1222;
 		System.out.println("title => " + b.title);
 		System.out.println("price => " + b.price);
 		System.out.println("company => " + b.company);
 		System.out.println("page => " + b.page);
-		// this().title = "»ç¶÷ÀÌ ¸ÕÀú´Ù";
+		// this().title = "ì‚¬ëŒì´ ë¨¼ì €ë‹¤";
 	}
 }
