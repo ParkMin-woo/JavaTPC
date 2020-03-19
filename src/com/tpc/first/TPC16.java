@@ -1,7 +1,7 @@
 package com.tpc.first;
 
 
-// JVM ¸Ş¸ğ¸®¿¡¼­ ÀÚ¹Ù°¡ ±¸µ¿ÇÏ´Â ¿ø¸®
+// JVM ë©”ëª¨ë¦¬ì—ì„œ ìë°”ê°€ êµ¬ë™í•˜ëŠ” ì›ë¦¬
 public class TPC16 {
 	public static void main(String[] args) {
 		double m = 9.30;

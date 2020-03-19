@@ -6,9 +6,9 @@ public class BookDTO {
 	public String company;
 	public int page;
 	
-	// Ãß°¡
+	// ì¶”ê°€
 	public BookDTO() {
-		// °´Ã¼¸¦ »ı¼ºÇÏ´Â ÀÛ¾÷À» ÇÑ´Ù.(±â°è¾îÄÚµå)
+		// ê°ì²´ë¥¼ ìƒì„±í•˜ëŠ” ì‘ì—…ì„ í•œë‹¤.(ê¸°ê³„ì–´ì½”ë“œ)
 		super();
 	}
 	

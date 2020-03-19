@@ -2,17 +2,17 @@ package com.tpc.first;
 
 public class TPC04 {
 	public static void main(String[] args) {
-		// 4. Data¸¦ ÀÌµ¿ÇÏ¶ó.(variable vs array)
+		// 4. Dataë¥¼ ì´ë™í•˜ë¼.(variable vs array)
 		int a, b, c;
 		a = 10;
 		b = 20;
 		c = 30;
 		
-		// a, b, c ¸Ş¼­µå Ã³¸® -> sum()
+		// a, b, c ë©”ì„œë“œ ì²˜ë¦¬ -> sum()
 		sum(a, b, c);
 		
-		// º¯¼ö¸¦ ¸ğ¸¦°æ¿ì
-		// Áï, º¯¼ö°¡ ¿©·¯°³ÀÎ °æ¿ì
+		// ë³€ìˆ˜ë¥¼ ëª¨ë¥¼ê²½ìš°
+		// ì¦‰, ë³€ìˆ˜ê°€ ì—¬ëŸ¬ê°œì¸ ê²½ìš°
 		int[] d = new int[10];
 		
 		for(int i = 0 ; i < d.length ; i++) {

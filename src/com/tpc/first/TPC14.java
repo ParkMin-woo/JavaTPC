@@ -4,19 +4,19 @@ import kr.bit.structure.BookDTO;
 
 public class TPC14 {
 	public static void main(String[] args) {
-		// Ã¥ -> Class(BookDTO) -> °´Ã¼ -> ÀÎ½ºÅÏ½º
-		String title = "½ºÇÁ¸µ";
+		// ì±… -> Class(BookDTO) -> ê°ì²´ -> ì¸ìŠ¤í„´ìŠ¤
+		String title = "ìŠ¤í”„ë§";
 		int price = 25000;
-		String company = "Á¦ÀÌÆà";
+		String company = "ì œì´í";
 		int page = 890;
 		
-		BookDTO b1;		// Object(°´Ã¼)
+		BookDTO b1;		// Object(ê°ì²´)
 		b1 = new BookDTO(title , price, company, page);		// Instance
 		
 		bookPrint(b1);
 	}
 	
-	// branch testÁß
+	// branch testì¤‘
 	public static void bookPrint(BookDTO b) {
 		System.out.println("b = " + b);
 		System.out.println("b.title = " + b.title);

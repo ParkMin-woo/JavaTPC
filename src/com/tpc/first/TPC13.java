@@ -6,27 +6,27 @@ import kr.bit.structure.Inflearn02;
 public class TPC13 {
 	public static void main(String[] args) {
 		
-		// »ı¼ºÀÚÀÇ Á¢±ÙÁöÁ¤ÀÚ°¡ privateÀÌ¶ó¼­ new¿¡ ÀÇÇÑ °´Ã¼ »ı¼ºÀº ºÒ°¡´ÉÇÏ´Ù.
+		// ìƒì„±ìì˜ ì ‘ê·¼ì§€ì •ìê°€ privateì´ë¼ì„œ newì— ì˜í•œ ê°ì²´ ìƒì„±ì€ ë¶ˆê°€ëŠ¥í•˜ë‹¤.
 		// Inflearn01 inf = new Inflearn01();
 		
 		Inflearn01.java();
 		
-		// Inflearn01 Å¬·¡½ºÀÇ tpc() ¸Ş¼Òµå¿¡ staticÀÌ ºÙ¾îÀÖÁö ¾Ê¾Æ¼­
-		// Å¬·¡½º¸í.¸Ş¼Òµå¸íÀ¸·Î È£ÃâÀÌ ºÒ°¡´É.
+		// Inflearn01 í´ë˜ìŠ¤ì˜ tpc() ë©”ì†Œë“œì— staticì´ ë¶™ì–´ìˆì§€ ì•Šì•„ì„œ
+		// í´ë˜ìŠ¤ëª….ë©”ì†Œë“œëª…ìœ¼ë¡œ í˜¸ì¶œì´ ë¶ˆê°€ëŠ¥.
 		// Inflearn01.tpc();
 		
 		Inflearn02 inf02 = new Inflearn02();
 		inf02.python();
 		
-		// Inflearn02 Å¬·¡½ºÀÇ »ı¼ºÀÚÀÇ Á¢±Ù ÁöÁ¤ÀÚ´Â public(default constructor)
-		// public »ı¼ºÀÚ°¡ ºÙ¾îµµ new¿¡ ÀÇÇÑ °´Ã¼ »ı¼ºÀ» ÅëÇÏ¿© staticÀÌ ºÙÀº ¸Ş¼Òµå, ÇÊµå·Î Á¢±ÙÇÒ ¼ö ÀÖÀ½.
-		// ÇÏÁö¸¸ º°·Î ±ÇÀåÇÏ´Â ¹æ¹ıÀº ¾Æ´Ñ °Å °°À½.
+		// Inflearn02 í´ë˜ìŠ¤ì˜ ìƒì„±ìì˜ ì ‘ê·¼ ì§€ì •ìëŠ” public(default constructor)
+		// public ìƒì„±ìê°€ ë¶™ì–´ë„ newì— ì˜í•œ ê°ì²´ ìƒì„±ì„ í†µí•˜ì—¬ staticì´ ë¶™ì€ ë©”ì†Œë“œ, í•„ë“œë¡œ ì ‘ê·¼í•  ìˆ˜ ìˆìŒ.
+		// í•˜ì§€ë§Œ ë³„ë¡œ ê¶Œì¥í•˜ëŠ” ë°©ë²•ì€ ì•„ë‹Œ ê±° ê°™ìŒ.
 		inf02.oracle();
 		Inflearn02.oracle();
 		
-		// Java API Áß¿¡¼­ Á¢±ÙÁöÁ¤ÀÚ°¡ privateÀÎ »ı¼ºÀÚ¸¦ °¡Áø APIµé
+		// Java API ì¤‘ì—ì„œ ì ‘ê·¼ì§€ì •ìê°€ privateì¸ ìƒì„±ìë¥¼ ê°€ì§„ APIë“¤
 		// System sys = new System();
-		System.out.println("Á¦´Ï°­, º¸°í½Í´Ù... ¤Ì¤Ì");
+		System.out.println("ì œë‹ˆê°•, ë³´ê³ ì‹¶ë‹¤... ã…œã…œ");
 		double abstract1 = Math.abs(-11.1);
 		System.out.println("abstract1 = " + abstract1);
 		

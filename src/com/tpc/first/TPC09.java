@@ -5,7 +5,7 @@ public class TPC09 {
 		int a = 10;
 		int b = 20;
 		TPC09 tpc09 = new TPC09();
-		int v = tpc09.sum(a, b);		// Heap Area¿¡ °´Ã¼ »ı¼º
+		int v = tpc09.sum(a, b);		// Heap Areaì— ê°ì²´ ìƒì„±
 		System.out.println("v = " + v);
 	}
 	

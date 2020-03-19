@@ -4,22 +4,22 @@ import kr.bit.structure.BookVO;
 
 public class TPC12 {
 	public static void main(String[] args) {
-		// »ı¼ºÀÚ -> °´Ã¼¸¦ »ı¼ºÇÏ°í ÃÊ±âÈ­
-		//      -> Áßº¹Á¤ÀÇ °¡´É
-		// BookVO °´Ã¼ »ı¼º
+		// ìƒì„±ì -> ê°ì²´ë¥¼ ìƒì„±í•˜ê³  ì´ˆê¸°í™”
+		//      -> ì¤‘ë³µì •ì˜ ê°€ëŠ¥
+		// BookVO ê°ì²´ ìƒì„±
 		BookVO b1 = new BookVO();
 		System.out.println("==========b1===============");
 		System.out.println("b1 = " + b1);
-		System.out.println("==========°ªÀ» ³Ö±â ÀüÀÇ b1 °´Ã¼(?)ÀÇ field°ªµé===============");
+		System.out.println("==========ê°’ì„ ë„£ê¸° ì „ì˜ b1 ê°ì²´(?)ì˜ fieldê°’ë“¤===============");
 		System.out.println("b1.title = " + b1.title);
 		System.out.println("b1.price = " + b1.price);
 		System.out.println("b1.company = " + b1.company);
 		System.out.println("b1.page = " + b1.page);
-		b1.title = "Å¬¶ó¿ì½º ½´¹äÀÇ Á¦4Â÷ »ê¾÷Çõ¸í";
+		b1.title = "í´ë¼ìš°ìŠ¤ ìŠˆë°¥ì˜ ì œ4ì°¨ ì‚°ì—…í˜ëª…";
 		b1.price = 15000;
-		b1.company = "»õ·Î¿îÇöÀç";
+		b1.company = "ìƒˆë¡œìš´í˜„ì¬";
 		b1.page = 287;
-		System.out.println("==========°ªÀ» ³ÖÀº ÈÄÀÇ b1 °´Ã¼(?)ÀÇ field°ªµé===============");
+		System.out.println("==========ê°’ì„ ë„£ì€ í›„ì˜ b1 ê°ì²´(?)ì˜ fieldê°’ë“¤===============");
 		System.out.println("b1.title = " + b1.title);
 		System.out.println("b1.price = " + b1.price);
 		System.out.println("b1.company = " + b1.company);
@@ -27,9 +27,9 @@ public class TPC12 {
 		/*
 		System.out.println("==========b1===============");
 		System.out.println("b1 = " + b1);
-		System.out.println("==========b1 °´Ã¼(?)ÀÇ field°ªµé===============");
-		// b1.title = "´©±¸³ª ½±°Ô SQL";
-		// System.out.println("¸¸¾à¿¡ ÃÊ±âÈ­µÈ titleÀÇ °ªÀ» ¹Ù²Ù¸é???");
+		System.out.println("==========b1 ê°ì²´(?)ì˜ fieldê°’ë“¤===============");
+		// b1.title = "ëˆ„êµ¬ë‚˜ ì‰½ê²Œ SQL";
+		// System.out.println("ë§Œì•½ì— ì´ˆê¸°í™”ëœ titleì˜ ê°’ì„ ë°”ê¾¸ë©´???");
 		System.out.println("b1.title = " + b1.title);
 		System.out.println("b1.price = " + b1.price);
 		System.out.println("b1.company = " + b1.company);
@@ -37,11 +37,11 @@ public class TPC12 {
 		*/
 		
 		// BookVO(String title, int price, String company, int page)
-		BookVO b2 = new BookVO("»ç¶÷ÀÌ ¸ÕÀú´Ù", 15000, "ÆÛÇÃÄ«¿ì" , 350);
+		BookVO b2 = new BookVO("ì‚¬ëŒì´ ë¨¼ì €ë‹¤", 15000, "í¼í”Œì¹´ìš°" , 350);
 		System.out.println("");
 		System.out.println("==========b2===============");
 		System.out.println("b2 = " + b2);
-		System.out.println("==========b2 °´Ã¼(?)ÀÇ field°ªµé===============");
+		System.out.println("==========b2 ê°ì²´(?)ì˜ fieldê°’ë“¤===============");
 		System.out.println("b2.title = " + b2.title);
 		System.out.println("b2.price = " + b2.price);
 		System.out.println("b2.company = " + b2.company);

@@ -4,18 +4,19 @@ import kr.bit.structure.MemberDTO;
 
 public class TPC15 {
 	public static void main(String[] args) {
-		// getter , setter method Å×½ºÆ®Áß
+		// getter , setter method í…ŒìŠ¤íŠ¸ì¤‘
 		MemberDTO member = new MemberDTO();
 		
-		member.setName("¹Ú¹Î¿ì");
+		member.setName("ë°•ë¯¼ìš°");
 		System.out.println("name = " + member.getName());
 		member.setAge(29);
 		System.out.println("age = " + member.getAge());
 		member.setTel("010-4801-5126");
 		System.out.println("tel = " + member.getTel());
-		member.setAddr("¼­¿ï½Ã ¼ÛÆÄ±¸");
+		member.setAddr("ì„œìš¸ì‹œ ì†¡íŒŒêµ¬");
 		System.out.println("addr = " + member.getAddr());
 		
 		System.out.println("toString() method call : " + member.toString());
 	}
 }
+ 
