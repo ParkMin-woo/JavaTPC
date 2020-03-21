@@ -21,6 +21,7 @@ public class TPC15 {
 		MemberDTO member2 = new MemberDTO("강희애" , 28 , "010-4876-8395" , "서울 강남구");
 		System.out.println(member2.toString());
 		
+		
 		// 객체참조변수명만 써도 자동으로 toString 메서드가 호출됨
 		// 아직은 왜그런지 모르겠음...;;;
 		System.out.println(member2);
