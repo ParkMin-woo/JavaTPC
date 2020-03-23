@@ -27,6 +27,10 @@ public class TPC15 {
 		System.out.println(member2);
 		System.out.println(member2.getClass());
 		System.out.println(member2.getClass().getName());
+		
+		// 200324 git 잘 되는지 test
+		MemberDTO member3 = new MemberDTO("Jennie Kang", 28, "010-4876-8395", "서울 관악구 신림동");
+		System.out.println("member3 => " + member3);
 	}
 }
  
