@@ -10,7 +10,7 @@ public class TPC12 {
 		BookVO b1 = new BookVO();
 		System.out.println("==========b1===============");
 		System.out.println("b1 = " + b1);
-		System.out.println("==========값을 넣기 전의 b1 객체(?)의 field값들===============");
+		System.out.println("==========값을 넣기 전의 b1이 참조하는 객체(?)의 field값들===============");
 		System.out.println("b1.title = " + b1.title);
 		System.out.println("b1.price = " + b1.price);
 		System.out.println("b1.company = " + b1.company);
@@ -19,7 +19,7 @@ public class TPC12 {
 		b1.price = 15000;
 		b1.company = "새로운현재";
 		b1.page = 287;
-		System.out.println("==========값을 넣은 후의 b1 객체(?)의 field값들===============");
+		System.out.println("==========값을 넣은 후의 b1이 참조하는 객체(?)의 field값들===============");
 		System.out.println("b1.title = " + b1.title);
 		System.out.println("b1.price = " + b1.price);
 		System.out.println("b1.company = " + b1.company);
@@ -56,5 +56,6 @@ public class TPC12 {
 		System.out.println("b3.company = " + b3.company);
 		System.out.println("b3.page = " + b3.page);
 		*/
+
 	}
 }
