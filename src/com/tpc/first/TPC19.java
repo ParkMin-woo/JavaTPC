@@ -2,7 +2,8 @@ package com.tpc.first;
 
 import com.google.gson.Gson;
 
-import kr.bit.structure.BookDTO;
+// import kr.bit.structure.BookDTO;
+import kr.bit.structure.MemberDTO;
 import kr.bit.structure.MyUtil;
 
 public class TPC19 {
@@ -20,11 +21,17 @@ public class TPC19 {
 		System.out.println("sum = " + sum);
 		
 		// 3. 다른 회사/개인이 만들어놓은 Class들
-		// Gson -> Json
+		// Gson -> Json      https://mvnrepository.com/
 		Gson gson = new Gson();
+		/*
 		BookDTO book = new BookDTO("사람이 먼저다", 15000, "퍼플카우" , 350);
 		System.out.println("book : " + book);
 		String bookJson = gson.toJson(book);
 		System.out.println("bookJson : " + bookJson);
+		*/
+		MemberDTO member = new MemberDTO("강희애", 28, "010-4876-8395", "서울 강남구");
+		System.out.println(member);
+		String memberJson = gson.toJson(member);
+		System.out.println(memberJson);
 	}
 }
