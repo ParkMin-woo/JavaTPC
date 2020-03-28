@@ -31,5 +31,12 @@ public class BookDTO {
 		this.company = company;
 		this.page = page;
 	}
+
+	@Override
+	public String toString() {
+		return "BookDTO [title=" + title + ", price=" + price + ", company=" + company + ", page=" + page + "]";
+	}
+	
+	
 	
 }
