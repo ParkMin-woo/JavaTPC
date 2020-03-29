@@ -24,4 +24,8 @@ public class Animal {
 	public void eat() {
 		System.out.println(name + "가(이) 밥을 " + "먹는다.");
 	}
+	
+	public void walk() {
+		System.out.println("누가 걷지???");
+	}
 }
