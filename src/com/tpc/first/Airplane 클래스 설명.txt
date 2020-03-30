@@ -1,0 +1,6 @@
+// 1. 일반 비행기 class인 Airplane을 만듦.
+ - Airplane은 이륙 / go / 착륙 3가지의 메서드를 가짐
+
+// 2. SuperSonicAirplane이라는 class를 만듦. 이 class는 Airplane class가 Super Class임.
+ - 특이하게 변하지 않는 속성변수 값을 가짐. NORMAL과 SPECIAL이라는 변수
+ - NORMAL이면 Airplane 객체 go를 실행 / SPECIAL이면 SuperSonicAirplane이 Airplane의 go를 override한 객체 go 실행.
