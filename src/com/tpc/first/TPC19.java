@@ -4,7 +4,7 @@ import com.google.gson.Gson;
 
 // import kr.bit.structure.BookDTO;
 import kr.bit.structure.MemberDTO;
-import kr.bit.structure.MyUtil;
+import kr.bit.util.MyUtil;
 
 public class TPC19 {
 	public static void main(String[] args) {

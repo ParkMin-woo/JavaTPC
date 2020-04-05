@@ -1,9 +1,11 @@
-package kr.bit.structure;
+package kr.bit.structure.inheritance;
 
 public class CellPhone {
 	// CellPhone 클래스의 field 선언
 	protected String model;
 	protected String color;
+	
+	public CellPhone() {}
 	
 	/**
 	 * @param model

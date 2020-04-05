@@ -1,4 +1,4 @@
-package kr.bit.structure;
+package kr.bit.structure.inheritance;
 
 public class Airplane {
 	public void takeOff() {

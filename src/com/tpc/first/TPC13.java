@@ -1,7 +1,7 @@
 package com.tpc.first;
 
-import kr.bit.structure.Inflearn01;
-import kr.bit.structure.Inflearn02;
+import kr.bit.action.Inflearn01;
+import kr.bit.action.Inflearn02;
 
 public class TPC13 {
 	public static void main(String[] args) {

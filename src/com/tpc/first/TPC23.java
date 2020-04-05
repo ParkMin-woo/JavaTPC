@@ -1,7 +1,7 @@
 package com.tpc.first;
 
-import kr.bit.structure.Airplane;
-import kr.bit.structure.SuperSonicAirplane;
+import kr.bit.structure.inheritance.Airplane;
+import kr.bit.structure.inheritance.SuperSonicAirplane;
 
 public class TPC23 {
 	public static void main(String[] args) {
