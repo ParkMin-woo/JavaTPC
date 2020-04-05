@@ -1,4 +1,4 @@
-package kr.bit.structure;
+package kr.bit.action;
 
 public class Inflearn02 {
 	public void python() {

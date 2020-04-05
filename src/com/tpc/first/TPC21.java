@@ -1,6 +1,7 @@
 package com.tpc.first;
 
-import kr.bit.structure.DmbCellPhone;
+import kr.bit.structure.inheritance.CellPhone;
+import kr.bit.structure.inheritance.DmbCellPhone;
 
 public class TPC21 {
 	public static void main(String[] args) {
@@ -19,5 +20,23 @@ public class TPC21 {
 		dmbPhone.turnOff(owner);
 		
 		System.out.println(dmbPhone);
+		
+		CellPhone cellPhone = new DmbCellPhone("아이폰", "흰색", "제니강", 5);
+		String iPhoneOwner = ((DmbCellPhone) cellPhone).getOwner();
+		cellPhone.turnOn(iPhoneOwner);
+		cellPhone.ring(iPhoneOwner);
+		cellPhone.sendMessage("미누미누, 나 너 너무 보고싶어... ㅜㅜ");
+		cellPhone.receiveMessage("제니강, 생일때까지 기달려주라. 너한테 선물줄게!");
+		cellPhone.sendMessage("오, 진짜??? ㅋㅋㅋㅋ");
+		cellPhone.receiveMessage("ㅇㅇ ㅋㅋㅋㅋㅋㅋ");
+		cellPhone.sendMessage("나 5월 7일이 정말 기대되는데??? ㅋㅋㅋㅋ");
+		cellPhone.receiveMessage("그 전날에 뭐 받고 싶은지 이야기해죠.");
+		cellPhone.sendMessage("알았어. ㅋㅋㅋㅋ");
+		cellPhone.hangUp(iPhoneOwner);
+		
+		((DmbCellPhone) cellPhone).dmbTurnOn();
+		((DmbCellPhone) cellPhone).changeDmbChannel(10);
+		((DmbCellPhone) cellPhone).dmbTurnOff();
+		System.out.println(cellPhone);
 	}
 }

@@ -1,4 +1,4 @@
-package kr.bit.structure;
+package kr.bit.action;
 
 public class Inflearn01 {
 	private Inflearn01() {}

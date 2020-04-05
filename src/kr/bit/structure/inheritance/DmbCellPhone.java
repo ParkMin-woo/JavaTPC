@@ -1,8 +1,12 @@
-package kr.bit.structure;
+package kr.bit.structure.inheritance;
 
 public class DmbCellPhone extends CellPhone {
 	private String owner;
 	private int dmbChannelNum;
+	
+	public DmbCellPhone() {
+		super();
+	}
 
 	/**
 	 * @param dmbChannelNum

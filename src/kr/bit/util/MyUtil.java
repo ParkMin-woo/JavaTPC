@@ -1,4 +1,4 @@
-package kr.bit.structure;
+package kr.bit.util;
 
 public class MyUtil {
 	/*
