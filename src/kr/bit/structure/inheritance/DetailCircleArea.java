@@ -8,7 +8,7 @@ public class DetailCircleArea extends OrdinaryCircleArea {
 	@Override
 	public double areaCircle(double r) {
 		double area = Math.PI * r * r;
-		System.out.println("DetailCircleArea 클래스에서 구한 원의 넓이는??? " + area);
+		// System.out.println("DetailCircleArea 클래스에서 구한 원의 넓이는??? " + area);
 		return area;
 		// return super.areaCircle(r);
 	}
