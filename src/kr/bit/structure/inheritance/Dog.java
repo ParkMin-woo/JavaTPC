@@ -27,7 +27,12 @@ public class Dog extends Animal {
 	public void follow() {
 		System.out.println(name + "가 사람들을 잘 따른다.");
 	}
-	
-	
+
+	// Inherited fields / Inherited methods
+	@Override
+	public String toString() {
+		return "Dog [name=" + name + ", age=" + age + ", species=" + species + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
 	
 }

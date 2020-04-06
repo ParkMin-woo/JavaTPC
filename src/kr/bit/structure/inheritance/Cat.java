@@ -28,4 +28,13 @@ public class Cat extends Animal {
 		System.out.println(name + "는 밤에 눈에서 빛이 난다.");
 	}
 
+	// Inherited fields / Inherited methods
+	@Override
+	public String toString() {
+		return "Cat [name=" + name + ", age=" + age + ", species=" + species + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+
+	
+	
 }
