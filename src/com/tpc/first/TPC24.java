@@ -4,49 +4,13 @@ import kr.bit.structure.inheritance.Animal;
 import kr.bit.structure.inheritance.Cat;
 import kr.bit.structure.inheritance.Dog;
 
-
-public class TPC20 {
+public class TPC24 {
 	public static void main(String[] args) {
-		Dog dog = new Dog("태양이", 2, "포메라니안");
-		dog.eat();
-		dog.walk();
-		dog.follow();
-		
-		System.out.println("-----------------------------------------");
-		
-		Cat cat = new Cat("구름이" , 4 , "코숏");
-		cat.eat();
-		cat.night();
-		cat.walk();
-		
-		System.out.println("-----------------------------------------");
-		
-		Animal animalDog1 = new Dog("사랑이" , 4, "요크셔태리어");
-		animalDog1.eat();
-		animalDog1.walk();
-		((Dog) animalDog1).follow();
-		
-		System.out.println("-----------------------------------------");
-		/*
-		Animal animalDog2 = new Dog();
-		animalDog2.eat();
-		animalDog2.walk();
-		*/
-		
-		Animal animalCat = new Cat("장군이" , 5 , "아비니시안");
-		animalCat.eat();
-		animalCat.walk();
-		((Cat) animalCat).night();
-		System.out.println("-----------------------------------------");
-		
-		// ※ 다형성 관련된 실습은 TPC24.java로 따로 빼놨음.
-		
-		/*
 		Animal animalParam = new Dog("아지" , 6, "푸들");
-		TPC20 tpc20 = new TPC20();
-		tpc20.display(animalParam);
+		TPC24 tpc24 = new TPC24();
+		tpc24.display(animalParam);
 		animalParam = new Cat("오레오" , 4 , "코숏");
-		tpc20.display(animalParam);
+		tpc24.display(animalParam);
 		
 		// 배열 예제
 		Animal[] animalArray = new Animal[2];
@@ -63,11 +27,9 @@ public class TPC20 {
 		System.out.println("-----------------------------------------");
 		System.out.println(animalArray[0]);
 		System.out.println(animalArray[1]);
-		*/
 	}
 	
-	// 메소드의 매개변수로 객체가 사용됨.
-	/*
+	// 배열로 다형성을 가진 객체가 사용됨.
 	public void display(Animal animal) {
 		// animal = new Dog("아지" , 6, "푸들");
 		int length = animal.getClass().toString().length();
@@ -89,5 +51,4 @@ public class TPC20 {
 		}
 		System.out.println("-----------------------------------------");
 	}
-	*/
 }
