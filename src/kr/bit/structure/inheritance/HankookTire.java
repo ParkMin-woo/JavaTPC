@@ -18,11 +18,11 @@ public class HankookTire extends Tire {
 		
 		if(accumulatedRotation < maxRotation) {
 			int remainRotation = maxRotation - accumulatedRotation;
-			System.out.println(location + " 타이어의 남은 회전수는 " + remainRotation + "회입니다.");
+			System.out.println(location + " 한국타이어의 남은 회전수는 " + remainRotation + "회입니다.");
 			return true;
 		}
 		else {
-			System.out.println(location + " 타이어가 펑크났습니다.");
+			System.out.println(location + " 한국타이어가 펑크났습니다.");
 			return false;
 		}
 	}
