@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.phone;
 
 public class CellPhone {
 	// CellPhone 클래스의 field 선언

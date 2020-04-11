@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.car;
 
 public class Car {	
 	// Tire 객체들을 배열로 관리

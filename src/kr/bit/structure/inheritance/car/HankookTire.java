@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.car;
 
 public class HankookTire extends Tire {
 	/*

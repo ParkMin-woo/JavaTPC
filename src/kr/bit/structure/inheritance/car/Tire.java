@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.car;
 
 // 이것이 자바다에서 다형성 부분 실습을 위한 에제
 public class Tire {

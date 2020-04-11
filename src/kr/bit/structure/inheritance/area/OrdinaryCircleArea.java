@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.area;
 
 public class OrdinaryCircleArea {
 	// 3.141592...로 원의 넓이를 구하는 메서드를 만들어보자
