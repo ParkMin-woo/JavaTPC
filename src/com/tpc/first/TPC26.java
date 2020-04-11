@@ -9,24 +9,25 @@ public class TPC26 {
 	public static void main(String[] args) {
 		Car myCar = new Car();
 		
-		myCar.run();
+		// myCar.run();
 		
 		// 타이어가 20번 돈다고 가정
 		for(int i = 1 ; i <= 20 ; i++) {
 			int problemLocation = myCar.run();
+			// System.out.println("problemLocation => " + problemLocation);
 			
 			for(int j = 0 ; j < myCar.tires.length ; j++) {
 				if(j%2 == 0) {
 					if(problemLocation == (j+1)) {
-						System.out.println(myCar.tires[j].location + "는 HankookTire로 교체");
-						myCar.tires[j] = new HankookTire(16 , myCar.tires[j].location);
+						System.out.println(myCar.tires[j].getLocation() + "는 HankookTire로 교체");
+						myCar.tires[j] = new HankookTire(16 , myCar.tires[j].getLocation());
 						break;
 					}
 				}
 				else if(j%2 == 1) {
 					if(problemLocation == (j+1)) {
-						System.out.println(myCar.tires[j].location + "는 KumhoTire로 교체");
-						myCar.tires[j] = new HankookTire(20 , myCar.tires[j].location);
+						System.out.println(myCar.tires[j].getLocation() + "는 KumhoTire로 교체");
+						myCar.tires[j] = new KumhoTire(20 , myCar.tires[j].getLocation());
 						break;
 					}
 				}
@@ -68,22 +69,5 @@ public class TPC26 {
 			
 			System.out.println("-------------------------------------");
 		}
-		
-		/*
-		myCar.run();
-		myCar.run();
-		myCar.run();
-		myCar.run();
-		myCar.run();
-		myCar.run();
-		myCar.frontLeftTire = new HankookTire(10, "frontLeftTire");
-		myCar.run();
-		myCar.run();
-		myCar.run();
-		myCar.run();
-		myCar.frontRightTire = new KumhoTire(20, "frontRightTire");
-		myCar.run();
-		myCar.run();
-		*/
 	}
 }
