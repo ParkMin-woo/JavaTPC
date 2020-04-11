@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.area;
 
 public class DetailCircleArea extends OrdinaryCircleArea {
 	

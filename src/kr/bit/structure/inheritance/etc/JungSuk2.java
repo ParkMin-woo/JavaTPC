@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.etc;
 
 public class JungSuk2 extends JungSuk1 {
 

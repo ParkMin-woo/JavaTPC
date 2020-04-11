@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.etc;
 
 public class JungSuk1 {
 	public void method1() {

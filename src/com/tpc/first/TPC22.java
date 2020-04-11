@@ -1,7 +1,7 @@
 package com.tpc.first;
 
-import kr.bit.structure.inheritance.DetailCircleArea;
-import kr.bit.structure.inheritance.OrdinaryCircleArea;
+import kr.bit.structure.inheritance.area.DetailCircleArea;
+import kr.bit.structure.inheritance.area.OrdinaryCircleArea;
 
 public class TPC22 {
 	public static void main(String[] args) {

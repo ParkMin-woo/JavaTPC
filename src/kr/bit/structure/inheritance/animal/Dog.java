@@ -1,11 +1,11 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.animal;
 
-public class Cat extends Animal {
+public class Dog extends Animal {
 
 	/**
 	 * 
 	 */
-	public Cat() {
+	public Dog() {
 		super();
 	}
 
@@ -14,27 +14,25 @@ public class Cat extends Animal {
 	 * @param age
 	 * @param species
 	 */
-	public Cat(String name, int age, String species) {
+	public Dog(String name, int age, String species) {
 		super(name, age, species);
 	}
-	
+
 	@Override
 	public void walk() {
 		// super.walk();
 		System.out.println(name + "이(가) 걷는다.");
 	}
-
-	public void night() {
-		System.out.println(name + "는 밤에 눈에서 빛이 난다.");
+	
+	public void follow() {
+		System.out.println(name + "가 사람들을 잘 따른다.");
 	}
 
 	// Inherited fields / Inherited methods
 	@Override
 	public String toString() {
-		return "Cat [name=" + name + ", age=" + age + ", species=" + species + ", getClass()=" + getClass()
+		return "Dog [name=" + name + ", age=" + age + ", species=" + species + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
-
-	
 	
 }

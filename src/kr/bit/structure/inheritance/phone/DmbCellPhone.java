@@ -1,4 +1,4 @@
-package kr.bit.structure.inheritance;
+package kr.bit.structure.inheritance.phone;
 
 public class DmbCellPhone extends CellPhone {
 	private String owner;

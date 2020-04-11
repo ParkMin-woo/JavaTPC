@@ -1,8 +1,8 @@
 package com.tpc.first;
 
-import kr.bit.structure.inheritance.Animal;
-import kr.bit.structure.inheritance.Cat;
-import kr.bit.structure.inheritance.Dog;
+import kr.bit.structure.inheritance.animal.Animal;
+import kr.bit.structure.inheritance.animal.Cat;
+import kr.bit.structure.inheritance.animal.Dog;
 
 
 public class TPC20 {

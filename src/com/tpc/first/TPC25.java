@@ -1,7 +1,7 @@
 package com.tpc.first;
 
-import kr.bit.structure.inheritance.JungSuk1;
-import kr.bit.structure.inheritance.JungSuk2;
+import kr.bit.structure.inheritance.etc.JungSuk1;
+import kr.bit.structure.inheritance.etc.JungSuk2;
 
 public class TPC25 {
 	public static void main(String[] args) {

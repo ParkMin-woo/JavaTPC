@@ -1,7 +1,7 @@
 package com.tpc.first;
 
-import kr.bit.structure.inheritance.CellPhone;
-import kr.bit.structure.inheritance.DmbCellPhone;
+import kr.bit.structure.inheritance.phone.CellPhone;
+import kr.bit.structure.inheritance.phone.DmbCellPhone;
 
 public class TPC21 {
 	public static void main(String[] args) {

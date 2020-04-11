@@ -1,8 +1,8 @@
 package com.tpc.first;
 
-import kr.bit.structure.inheritance.Car;
-import kr.bit.structure.inheritance.HankookTire;
-import kr.bit.structure.inheritance.KumhoTire;
+import kr.bit.structure.inheritance.car.Car;
+import kr.bit.structure.inheritance.car.HankookTire;
+import kr.bit.structure.inheritance.car.KumhoTire;
 
 // TPC26 예제 보완할 것!
 public class TPC26 {
