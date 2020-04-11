@@ -2,9 +2,9 @@ package kr.bit.structure.inheritance;
 
 // 이것이 자바다에서 다형성 부분 실습을 위한 에제
 public class Tire {
-	protected int maxRotation;				// 최대 회전수
-	protected int accumulatedRotation;		// 누적 회전수
-	protected String location;				// 타이어의 위치(앞왼쪽 , 앞오른쪽 , 뒤왼쪽 , 뒤오른쪽)
+	public int maxRotation;				// 최대 회전수
+	public int accumulatedRotation;		// 누적 회전수
+	public String location;				// 타이어의 위치(앞왼쪽 , 앞오른쪽 , 뒤왼쪽 , 뒤오른쪽)
 	
 	/**
 	 * @param maxRotation
