@@ -9,8 +9,10 @@ public class TPC24 {
 		Animal animalParam = new Dog("아지" , 6, "푸들");
 		TPC24 tpc24 = new TPC24();
 		tpc24.display(animalParam);
+		tpc24.instanceofDisplay(animalParam);
 		animalParam = new Cat("오레오" , 4 , "코숏");
 		tpc24.display(animalParam);
+		tpc24.instanceofDisplay(animalParam);
 		
 		// 배열 예제
 		Animal[] animalArray = new Animal[2];
@@ -31,6 +33,7 @@ public class TPC24 {
 	
 	// 배열로 다형성을 가진 객체가 사용됨.
 	public void display(Animal animal) {
+		System.out.println("그냥 다형성 객체를 이용한 메서드");
 		// animal = new Dog("아지" , 6, "푸들");
 		int length = animal.getClass().toString().length();
 		// System.out.println("animal type => " + animal.getClass().toString().substring(length - 3, length));
@@ -48,6 +51,22 @@ public class TPC24 {
 			animal.walk();
 			Cat c = (Cat)animal;
 			c.night();
+		}
+		System.out.println("-----------------------------------------");
+	}
+	
+	// instanceof 연산자 사용한 메서드
+	public void instanceofDisplay(Animal animal) {
+		System.out.println("instanceof 연산자를 이용한 다형성 객체를 이용한 메서드");
+		if(animal instanceof Dog) {
+			animal.eat();
+			animal.walk();
+			((Dog) animal).follow();
+		}
+		else if(animal instanceof Cat) {
+			animal.eat();
+			animal.walk();
+			((Cat) animal).night();
 		}
 		System.out.println("-----------------------------------------");
 	}
