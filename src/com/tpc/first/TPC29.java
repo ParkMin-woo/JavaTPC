@@ -12,17 +12,42 @@ public class TPC29 {
 										    // class 앞에 abstract가 붙으면 java는 abstract class로 인식.
 		String owner = "박민우";
 		
-		SmartPhone smartPhone = new SmartPhone(owner);
+		// SmartPhone smartPhone = new SmartPhone(owner);
+		Phone smartPhone = new SmartPhone(owner);
 		smartPhone.turnOn();
-		smartPhone.internetSearch();
+		((SmartPhone) smartPhone).internetSearch();
 		smartPhone.turnOff();
 		
 		System.out.println("-----------------------------------");
 		
-		TelePhone telePhone = new TelePhone(owner);
+		// TelePhone telePhone = new TelePhone(owner);
+		Phone telePhone = new TelePhone(owner);
 		telePhone.turnOn();
-		telePhone.autoAnswering();
+		((TelePhone) telePhone).autoAnswering();
 		telePhone.turnOff();
-
+		
+		System.out.println("-----------------------------------");
+		
+		TPC29 tpc29 = new TPC29();
+		tpc29.turnOnOrOff(smartPhone);
+		tpc29.turnOnOrOff(telePhone);
+	}
+	
+	public void turnOnOrOff(Phone phone) {
+		if(phone instanceof SmartPhone) {
+			phone.turnOn();
+			((SmartPhone) phone).internetSearch();
+			phone.turnOff();
+			System.out.println("-----------------------------------");
+		}
+		else if(phone instanceof TelePhone) {
+			phone.turnOn();
+			((TelePhone) phone).autoAnswering();
+			phone.turnOff();
+			System.out.println("-----------------------------------");
+		}
+		else {
+			System.out.println("이건 뭥미??? ㅋㅋㅋㅋ");
+		}
 	}
 }

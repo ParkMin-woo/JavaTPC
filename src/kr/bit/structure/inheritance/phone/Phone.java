@@ -12,6 +12,7 @@ public abstract class Phone {
 		this.owner = owner;
 	}
 	
+	/*
 	public void turnOn() {
 		System.out.println("폰 전원을 켭니다.");
 	}
@@ -19,4 +20,9 @@ public abstract class Phone {
 	public void turnOff() {
 		System.out.println("폰 전원을 끕니다.");
 	}
+	*/
+	
+	public abstract void turnOn();
+	
+	public abstract void turnOff();
 }
