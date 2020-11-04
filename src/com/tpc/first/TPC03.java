@@ -31,12 +31,20 @@ public class TPC03 {
 		MemberVO member;
 		member = new MemberVO();
 		
+		/*
 		member.name = "김수영";
 		member.age = 26;
 		member.adress = "경기도 성남";
 		member.job = "나이키 직원";
 		member.height = 170.9f;
 		member.weight = 50.12f;
+		*/
+		member.name = "강희애";
+		member.age = 28;
+		member.adress = "경기도 수원";
+		member.job = "IT개발자";
+		member.height = 160.9f;
+		member.weight = 45.01f;
 		System.out.println("이름 => " + member.name);
 		System.out.println("나이 => " + member.age);
 		System.out.println("주소 => " + member.adress);
