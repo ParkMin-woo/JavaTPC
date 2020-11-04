@@ -37,10 +37,20 @@ public class TPC05 {
 
 	public static void arrSum1(int[] x) {
 		int sum = 0;
+		/*
+		 * General for loop
 		for(int i = 0 ; i < x.length ; i++) {
 			sum += x[i];
 		}
-		System.out.println("sum = " + sum);
+		*/
+		
+		/*
+		 * Advanced for loop
+		*/
+		for(int xElement : x) {
+			sum += xElement;
+		}
+		System.out.println("arrSum1의 sum = " + sum);
 	}
 	
 	public static void arrSum2(int[][] x) {
@@ -50,6 +60,6 @@ public class TPC05 {
 				sum += x[i][j];
 			}
 		}
-		System.out.println("sum = " + sum);
+		System.out.println("arrSum2의 sum = " + sum);
 	}
 }

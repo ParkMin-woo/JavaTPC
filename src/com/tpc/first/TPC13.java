@@ -20,7 +20,7 @@ public class TPC13 {
 		
 		// Inflearn02 클래스의 생성자의 접근 지정자는 public(default constructor)
 		// public 생성자가 붙어도 new에 의한 객체 생성 후에 static이 붙은 메소드, 필드로 접근할 수 있음.
-		// 하지만 별로 권장하는 방법은 아닌 거 같음.
+		// 하지만 별로 권장하는 방법은 아닌 거 같음. -> 추가 : 상황에 맞게 사용하는게 좋음.
 		inf02.oracle();
 		Inflearn02.oracle();
 		
