@@ -33,6 +33,7 @@ public class TPC29 {
 		tpc29.turnOnOrOff(telePhone);
 	}
 	
+	// 2020.11.05 커밋 테스트
 	public void turnOnOrOff(Phone phone) {
 		if(phone instanceof SmartPhone) {
 			phone.turnOn();
