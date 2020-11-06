@@ -23,15 +23,27 @@ public class TPC24 {
 		animalArray[0].walk();
 		((Dog)animalArray[0]).follow();
 		System.out.println("-----------------------------------------");
+		tpc24.display(animalArray[0]);
+		tpc24.instanceofDisplay(animalArray[0]);
+		System.out.println("-----------------------------------------");
 		animalArray[1].eat();
 		animalArray[1].walk();
 		((Cat)animalArray[1]).night();
 		System.out.println("-----------------------------------------");
+		tpc24.display(animalArray[1]);
+		tpc24.instanceofDisplay(animalArray[1]);
+		System.out.println("-----------------------------------------");
+		// Advanced For LOOP
+		for(Animal animal : animalArray) {
+			System.out.println("Advanced For LOOP 이용");
+			tpc24.display(animal);
+			tpc24.instanceofDisplay(animal);
+		}
 		System.out.println(animalArray[0]);
 		System.out.println(animalArray[1]);
 	}
 	
-	// 배열로 다형성을 가진 객체가 사용됨.
+	// 메소드의 매개변수로 다형성을 가진 객체가 사용됨.
 	public void display(Animal animal) {
 		System.out.println("그냥 다형성 객체를 이용한 메서드");
 		// animal = new Dog("아지" , 6, "푸들");

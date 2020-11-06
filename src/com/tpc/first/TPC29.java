@@ -1,5 +1,7 @@
 package com.tpc.first;
 
+import kr.bit.structure.inheritance.animal.Animal;
+import kr.bit.structure.inheritance.animal.Dog;
 import kr.bit.structure.inheritance.phone.Phone;
 import kr.bit.structure.inheritance.phone.SmartPhone;
 import kr.bit.structure.inheritance.phone.TelePhone;
@@ -31,6 +33,8 @@ public class TPC29 {
 		TPC29 tpc29 = new TPC29();
 		tpc29.turnOnOrOff(smartPhone);
 		tpc29.turnOnOrOff(telePhone);
+		// Animal dog = new Dog();
+		// tpc29.turnOnOrOff(dog);
 	}
 	
 	// 2020.11.05 커밋 테스트
