@@ -4,6 +4,7 @@ import kr.bit.structure.inheritance.animal.poly.Animal;
 import kr.bit.structure.inheritance.animal.poly.Cat;
 import kr.bit.structure.inheritance.animal.poly.Dog;
 
+// Abstract Class의 사용 예제
 public class TPC30 {
 
 	public static void main(String[] args) {
