@@ -1,8 +1,8 @@
 package com.tpc.first;
 
-import kr.bit.structure.implement.Radio;
-import kr.bit.structure.implement.RemotementControl;
-import kr.bit.structure.implement.TV;
+import kr.bit.structure.implement.remocon.Radio;
+import kr.bit.structure.implement.remocon.RemotementControl;
+import kr.bit.structure.implement.remocon.TV;
 
 // Interface 실습
 public class TPC31 {
