@@ -1,4 +1,4 @@
-package kr.bit.structure.implement;
+package kr.bit.structure.implement.remocon;
 
 public interface RemotementControl {
 	public void chUp();
