@@ -22,8 +22,12 @@ public class TPC31 {
 		System.out.println("메서드 파라미터로 객체를 받은 경우");
 		if(remoCon instanceof TV) {
 			((TV) remoCon).turnOn();
-			remoCon.chUp();
-			remoCon.chDown();
+			for(int i = 0 ; i < 30 ; i++) {
+				remoCon.chUp();
+			}
+			for(int i = 0 ; i < 30 ; i++) {
+				remoCon.chDown();
+			}
 			remoCon.internet();
 			((TV) remoCon).turnOff();
 		} else {
